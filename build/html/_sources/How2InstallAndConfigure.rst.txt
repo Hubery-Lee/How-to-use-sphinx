@@ -1,11 +1,9 @@
-.. _header-n17:
 
 那么如何安装和配置sphinx呢？
 ============================
 
-.. _header-n18:
 
-1.效果预览
+效果预览
 ----------
 
 https://how-to-use-sphinx-write.readthedocs.io/zh_CN/latest/

@@ -1,0 +1,35 @@
+.. How-to-use-sphinx documentation master file, created by
+   sphinx-quickstart on Mon Feb  8 15:57:23 2021.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+==========================================================
+Welcome to A Brief Tutorial On Making Beauty Documents!
+==========================================================
+
+
+- **邮箱（email）**：hrbeulh@126.com
+- **博客（blog）**：http://hubery-lee.github.io
+- **主页（homepage）**：http://iridescent.ink
+
+.. Image:: _static/icon.jpg
+
+
+.. hint::
+
+    `PDF 版文档可以点这里查看 <./_static/pdf/How-to-use-sphinx.pdf>`_
+
+.. toctree::
+   :maxdepth: 4
+   
+   What_is_sphinx
+   Why_sphinx
+   How2InstallAndConfigure
+   How2UseAndDeploy
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
