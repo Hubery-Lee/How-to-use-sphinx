@@ -9,15 +9,16 @@ Welcome to A Brief Tutorial On Making Beauty Documents!
 
 
 - **邮箱（email）**：hrbeulh@126.com
-- **博客（blog）**：http://hubery-lee.github.io
-- **主页（homepage）**：http://iridescent.ink
+- **主页（homepage）**：http://hubery-lee.github.io
+
+.. - **主页（blog）**：http://iridescent.ink
 
 .. Image:: _static/icon.jpg
 
 
 .. hint::
 
-    `PDF 版文档可以点这里查看 <./_static/pdf/How-to-use-sphinx.pdf>`_
+    `PDF 版文档可以点这里查看 <./build/pdf/rst2pdf.pdf>`_
 
 .. toctree::
    :maxdepth: 4

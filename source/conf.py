@@ -5,7 +5,11 @@ Author: Hubery-Lee
 Date: 2021-02-08 15:57:23
 E-mail: hrbeulh@126.com
 LastEditors: Hubery-Lee
+<<<<<<< HEAD
 LastEditTime: 2021-02-09 11:25:26
+=======
+LastEditTime: 2021-02-09 09:45:39
+>>>>>>> d2bef75 (second commit)
 '''
 # Configuration file for the Sphinx documentation builder.
 #
@@ -39,8 +43,16 @@ release = 'v1.0'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['recommonmark'
+extensions = ['recommonmark','rst2pdf.pdfbuilder','sphinx.ext.autodoc'
 ]
+
+pdf_documents = [('index', 'rst2pdf', 'Sample rst2pdf doc', 'Your Name'),]
+# pdf_stylesheets=["a3", "chinese"]
+pdf_stylesheets=["a3"]
+# rst2pdf - name of the generated pdf
+# Sample rst2pdf doc - title of the pdf
+# Your Name - author name in the pdf
+
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -69,3 +81,4 @@ html_theme = 'sphinx_rtd_theme'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
