@@ -6,7 +6,7 @@ Date: 2021-02-08 15:57:23
 E-mail: hrbeulh@126.com
 LastEditors: Hubery-Lee
 <<<<<<< HEAD
-LastEditTime: 2021-02-09 11:25:26
+LastEditTime: 2021-02-14 21:45:56
 =======
 LastEditTime: 2021-02-09 09:45:39
 >>>>>>> d2bef75 (second commit)
@@ -46,9 +46,9 @@ release = 'v1.0'
 extensions = ['recommonmark','rst2pdf.pdfbuilder','sphinx.ext.autodoc'
 ]
 
-pdf_documents = [('index', 'rst2pdf', 'Sample rst2pdf doc', 'Your Name'),]
-# pdf_stylesheets=["a3", "chinese"]
-pdf_stylesheets=["a3"]
+pdf_documents = [('index', 'rst2pdf', 'How to use sphinx', 'Hubery-Lee(李会)'),]
+pdf_stylesheets=["a3", "chinese"]
+# pdf_stylesheets=["a3"]
 # rst2pdf - name of the generated pdf
 # Sample rst2pdf doc - title of the pdf
 # Your Name - author name in the pdf

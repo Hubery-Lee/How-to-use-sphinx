@@ -18,7 +18,7 @@ Welcome to A Brief Tutorial On Making Beauty Documents!
 
 .. hint::
 
-    `PDF 版文档可以点这里查看 <./build/pdf/rst2pdf.pdf>`_
+    `PDF 版文档可以点这里查看 <./_build/pdf/rst2pdf.pdf>`_
 
 .. toctree::
    :maxdepth: 4
